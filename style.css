@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  background:url(./image/pexels-mike-b-130851.jpg)no-repeat center center fixed;
+  background-size: cover;
+ 
+}
+.gulam{
+  position: absolute;
+  top: 45%;
+  left: 70%;
+}
+.container h1{
+  font-size: 40px;
+  border-bottom: 5px solid red;
+  margin-bottom: 45px;
+  color: blue;
+  display: inline-block;
+
+}
+.box{
+  width: 100%;
+  border-bottom: 2px solid red;
+
+}
+.box input{
+  width: 75%;
+  margin: 20px 0px;
+  padding: 10px 5px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+}
+.box i{padding: 0 12px;
+  width: 25px;
+  text-align: center;
+  color: green;
+}
+.btn{
+  cursor: pointer;
+  outline: none;
+  width: 25%;
+  margin: 12px 0;
+  padding: 6px;
+  border: 2px solid red;
+  border-radius: 10px;
+  background-color:goldenrod;
+}
+.btn a:hover{
+  color: red;
+}
+.btn a:visited{
+  color: brown;
+}
+.btn a:hover{
+  z-index: 2;
+  color: blue;
+}
+.btn a:active{
+  color: white;
+}
+
+
+
